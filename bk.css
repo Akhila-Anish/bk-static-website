@@ -18,6 +18,7 @@
 body{
     margin: 0;
 }
+
 .logo_text{
     text-decoration: none;
    color:rgb(80, 35, 20) ;
@@ -95,7 +96,8 @@ float: left;
     border-radius: 18px;
       width: 300px;
     background:rgb(245, 56, 56);
-  
+    
+
     color: white;
     border-color: #29487d;
     height: 50px;
@@ -125,9 +127,9 @@ float: left;
     background:rgb(231, 206, 206);
     }
 .col2{
-    width: 55%;
+    width: 50%;
     height: 600px;
-    float: left;
+   float: left;
 }
 .second_row{
     width: 100%;
@@ -135,11 +137,12 @@ float: left;
     float: left;
 }
 .image1 {
-    
+    z-index: 2;
     height: 450px;
-
-    padding-top: 40px;
-    width:100%;
+  
+    padding-top: 150px;
+    width:90%;
+   
 }
 .col11{
     width: 50%;
@@ -177,22 +180,22 @@ float: left;
 }
 .col22{
     width: 50%;
-    height:250px ;
+    height:400px ;
 
     float: left;
 }
 .ordernow1{
     background: white;
     width: 95%;
-    height: 240px;
+    height: 400px;
     float: left;
     padding-left: 12px;
-
+   padding-bottom: 100px;
 }
 .ordernow2{
     background: white;
     width: 90%;
-    height: 240px;
+    height: 340px;
     float: left;
     padding-left: 12px;
 }
@@ -204,6 +207,7 @@ float: left;
     float: right;
     border-radius: 15px;
     cursor: pointer;
+   
 }
 .button4:hover{                     
     background:rgb(236, 205, 205);
@@ -238,7 +242,7 @@ float: left;
     
     height: 250px;
     width: 95%;
-    padding-top: 48px;
+    padding-top: 55px;
     float: left;
     padding-left: 12px;
 }
@@ -327,7 +331,7 @@ float: left;
     padding-left: 2px;
     float: left;
     text-decoration: none;
-  
+     padding-left: 2px;
 }
 .footer_icon2{
     display: #127828;
@@ -362,6 +366,7 @@ float: left;
     text-decoration: none;
     font-size: 17px;
    padding: 12px;
+   text-align: center;
   }
 
   .footer_icon2 a {
@@ -371,6 +376,7 @@ float: left;
     text-decoration: none;
     font-size: 17px;
     padding: 12px;
+    text-align: center;
   }
   .footer_icon3 a {
     float: right;
@@ -380,13 +386,17 @@ float: left;
     text-decoration: none;
     font-size: 17px;
     padding: 12px;
+    text-align: center;
   }
   .footer_icon4 a {
+    
     float: right;
     width: 50%;
     color:  rgb(80, 35, 20);
     text-decoration: none;
     font-size: 17px;
     padding: 12px;
+   
+    align-items: center;
   }
   
